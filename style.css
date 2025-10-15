@@ -2,4 +2,31 @@
 Theme Name: Portfolio 
 Author: Kumar Gajmer
 Version: 1.0
+Text Domain: dev-portfolio
 */
+
+/* Header Styles */
+.site-header {
+    background: #111;
+    color: #fff;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu li a:hover {
+    color: #f39c12;
+  }
+  
